@@ -1,0 +1,33 @@
+api_key: YOUR-RAPIDAPI-KEY-TO-MEDIUM-API
+topic_slug: llm
+count: 10
+load_to_bq: True
+feed_mode:
+  - hot
+  - new
+  - top_year
+  - top_month
+  - top_week
+  - top_all_time
+google_cloud_config:
+  project: YOUR-GCP-PROJECT-ID
+  dataset_id: YOUR-DATASET-ID
+  user_info_table: user_info
+  users_top_writer_in_table: users_top_writer_in
+  user_followers_table: user_followers
+  user_followings_table: user_following
+  users_articles_table: user_articles
+  articles_info_table: articles_info
+  article_tags_table: article_tags
+  article_topics_table: article_topics
+  article_fans_id_table: article_fans_id
+  article_related_articles_table: article_related_articles
+  articles_comments_info_table: articles_comments_info
+  article_comments_tag_info_table: article_comments_tag
+  article_comments_topic_info_table: article_comments_topic
+  publication_info_table: publication_info
+  publication_tags_table: publication_tags
+  publication_editors_table: publication_editors
+  publication_articles_table: publication_articles
+  top_feeds_table: top_feeds
+  credentials_path: credentials/credentials.json

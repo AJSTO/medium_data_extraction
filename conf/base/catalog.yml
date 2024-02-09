@@ -1,0 +1,58 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+users_info_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/users_info.csv
+user_followers_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/user_followers.csv
+user_followings_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/user_followings.csv
+users_articles_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/users_articles_df.csv
+user_top_writer_in_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/user_top_writer_in.csv
+articles_info_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/articles_info.csv
+article_tags_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/article_tags.csv
+article_topics_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/article_topics.csv
+article_fans_id_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/article_fans_id.csv
+article_related_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/article_related.csv
+articles_comments_info_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/articles_comments_info.csv
+article_comments_tag_info_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/article_comments_tag.csv
+article_comments_topic_info_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/article_comments_topic.csv
+publication_info_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/publication_info.csv
+publication_tags_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/publication_tags.csv
+publication_editors_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/publication_editors.csv
+publication_articles_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/publication_articles.csv
+top_feeds_df:
+   type: pandas.CSVDataSet
+   filepath: data/api_medium_catalog/top_feeds.csv
